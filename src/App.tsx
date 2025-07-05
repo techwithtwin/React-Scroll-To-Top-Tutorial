@@ -1,5 +1,6 @@
 import "./App.css";
 import ImageDisplay from "./components/ImageDisplay";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           imgUrl={`https://randomfox.ca/images/${item}.jpg`}
         />
       ))}
+      <ScrollToTopBtn />
     </>
   );
 }
